@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
 // Initialize Supabase client
-const supabase = createClient('https://ojkxcjtukvubnyohwpso.supabase.co', 'your-public-anon-key'); // Replace with your key
+const supabase = createClient('https://ojkxcjtukvubnyohwpso.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9qa3hjanR1a3Z1Ym55b2h3cHNvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQyNjI0NTcsImV4cCI6MjA1OTgzODQ1N30.zP0k1mlxrEyCvV7S-kiXieZyE3M4X1Nni9O75GXyyes'); // Replace with your key
 
 export default async function handler(req, res) {
     if (req.method === 'POST') {
